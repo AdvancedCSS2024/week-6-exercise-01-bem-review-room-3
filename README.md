@@ -219,6 +219,12 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         <h3 class="card__subtitle">Cat poster - 50nok</h3>
     </header>
 
+#### Solution to example 15:
+    <header class="card card__header">
+        <h2 class="card card__title--cat--new">NEW! Cat Poster</h2>
+        <h3 class="card card__price">Cat poster - 50nok</h3>
+    </header>
+
 ## Example 16
     <section class="catbox">
         ...
