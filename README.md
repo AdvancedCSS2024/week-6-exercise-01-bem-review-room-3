@@ -61,6 +61,15 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         background-color: yellow;
     }
 
+## Solution
+    .card card--dog {
+        background-color: pink;
+        }
+
+    .card card--cat {
+        background-color: yellow;
+    }
+
 ## Example 3
     .Newcard {
       border: solid 1px rgb(255, 242, 0);
