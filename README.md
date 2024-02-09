@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/P3kz0bBR)
 # BEM in practice
 
 ## Part 1 - BEM
@@ -31,7 +32,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         <h3 class="card card__h3">Volvo</h3>
     </header>
 
-#### Solution 1:
+#### Solution 1 to example 1:
     <header class="card__header">
         <h2 class="card__header--title">Cars</h2>
         <h3 class="card__header--subtitle">Fiat</h3>
@@ -41,7 +42,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 > [!NOTE]
 > block: card, element: header, modifier: title/subtitle
 
-#### Solution 2:
+#### Solution 2 to example 1:
     <header class="card__header">
         <h2 class="card__header card__header--title">Cars</h2>
         <h3 class="card__header card__header--subtitle">Fiat</h3>
