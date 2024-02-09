@@ -68,6 +68,16 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
       max-width: 260px;
       padding: 10px;
       }
+      
+#### Solution to example 3:
+    .card--new{
+        border: solid 1px rgb(255, 242, 0);
+      border-width: 2rem;
+      max-width: 260px;
+      padding: 10px;
+      }
+> [!NOTE]
+> much easier to see that the the card is new when the new is at the end of the class/id 
 
 ## Example 4
     <p class="card__description__text">
