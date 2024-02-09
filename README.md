@@ -264,7 +264,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     .card:nth-of-type(even) .card_basked_button {
         ...
     }
-#### Solution to example 17:
+#### Solution to example 19:
 > [!TIP]
 > The card could change position when removed or when other cards are added. Then other CSS rules will apply to the card-
 > The css code would work on a static page, where the webpage does not change
@@ -282,6 +282,10 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 
 ## Example 21
     <main class="main_flex-container">
+        ...
+    </main>
+#### Solution to example 21:
+    <main class="main__container--flex">
         ...
     </main>
 
