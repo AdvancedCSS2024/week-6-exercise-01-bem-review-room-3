@@ -180,6 +180,13 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 > [!TIP]
 > Why is it not a good idea to specify type of flex applied to element in the name of class?
 
+#### Solution to example 11:
+    <main class="main__flex">
+        ...
+    </main>
+> [!TIP]
+> Naming the class with the specified type of flex limits the flexibility and reusability of the class, also worse readability
+
     
 ## Example 12
     <section class="dog--flex">
