@@ -200,6 +200,13 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
       </div>
     </footer>
 
+#### Solution to example 13:
+    <footer class="card__footer">
+      <div class="card__footer--buttons">
+       ...
+      </div>
+    </footer>
+
 ## Example 14
     <header class="">
         <h2 class="card__dog--poster">Dog Poster</h2>
