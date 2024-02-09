@@ -305,7 +305,7 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     <section class="cat">
         ...
     </section>
-#### Solution to example 21:
+#### Solution to example 23:
     <section class="section__cat">
         ...
     </section>
@@ -320,6 +320,10 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 
 ## Example 25
 ![image](https://github.com/aniWeyn/advancedcss-bemmistakes/assets/23743322/57049158-a239-4853-aa76-c2cf63e443fe)
+#### Solution to example 25:
+> The CSS rules for the card should be under the /* CARD */ comments, not above as in this image
+> The rules specified to the image could be moved over the /* CARD */ comment
+> Then the code will be easier to read, maintain and understand
 
 ## Example 26
     header {
