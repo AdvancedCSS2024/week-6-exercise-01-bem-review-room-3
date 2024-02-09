@@ -346,3 +346,11 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 
 ## Example 27
 In what scenarios is it advantageous to use a class name that represents the animal, and in what scenarios would it be preferable to use a generic name like 'product_01' or 'product_02'?
+
+Using class names that represent animals:
+- Webpage related to just animals or animal products
+- Easy to understand the code and what the different classes are related to, for everyone
+
+Using generic names like 'product_01':
+- Good for webpages like e-commerce stores, not related to one specific theme or product
+- International language with names like 'product_01' 
