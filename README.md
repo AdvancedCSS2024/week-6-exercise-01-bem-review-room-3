@@ -68,6 +68,16 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
       max-width: 260px;
       padding: 10px;
       }
+      
+#### Solution to example 3:
+    .card--new{
+        border: solid 1px rgb(255, 242, 0);
+      border-width: 2rem;
+      max-width: 260px;
+      padding: 10px;
+      }
+> [!NOTE]
+> much easier to see that the the card is new when the new is at the end of the class/id 
 
 ## Example 4
     <p class="card__description__text">
@@ -90,6 +100,17 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
              </aside>
          </article>
     </section>
+ 
+#### Solution to example 5:
+    <section class="card">
+        <article class="card__dog--article">
+            <aside class="card__dog--aside">
+                <figure class="card__dog--figure">
+                    <img src="..." alt="Dummy Image" class="" />
+                </figure>
+             </aside>
+         </article>
+    </section>
 
 ## Example 6
     .button--styled--disabled{
@@ -98,6 +119,11 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 
 ## Example 7
     <article class="card cat--card">
+      ...
+    </article>
+
+#### Solution to example 7:
+    <article class="card card__cat--article">
       ...
     </article>
 
@@ -121,6 +147,18 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         align-items: center;
         justify-content: center;
     }
+#### Solution to example 9:
+    .card {
+        border: solid 1px #000;
+        max-width: 360px;
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 15px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
 
 ## Example 10
     .card--dog--type1 header{
@@ -141,6 +179,13 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     </main>
 > [!TIP]
 > Why is it not a good idea to specify type of flex applied to element in the name of class?
+
+#### Solution to example 11:
+    <main class="main__flex">
+        ...
+    </main>
+> [!TIP]
+> Naming the class with the specified type of flex limits the flexibility and reusability of the class, also worse readability
 
     
 ## Example 12
