@@ -305,6 +305,11 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     <section class="cat">
         ...
     </section>
+#### Solution to example 21:
+    <section class="section__cat">
+        ...
+    </section>
+> Specify the class naming by saying this is a section about cats
 
 ## Example 24
     .button__div1,
