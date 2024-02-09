@@ -235,6 +235,11 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         <span class="card_basket_button_icon">&#128722;</span>
         <span class="card_basket_button_text">Basket</span>
     </button>
+#### Solution to example 17:
+    <button class="card button__basket--disabled">
+        <span class="card button__basket--icon">&#128722;</span>
+        <span class="card button__basket--text">Basket</span>
+    </button>
 
 ## Example 18
     <header class="main_header">
