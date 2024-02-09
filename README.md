@@ -100,6 +100,17 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
              </aside>
          </article>
     </section>
+ 
+#### Solution to example 5:
+    <section class="card">
+        <article class="card__dog--article">
+            <aside class="card__dog--aside">
+                <figure class="card__dog--figure">
+                    <img src="..." alt="Dummy Image" class="" />
+                </figure>
+             </aside>
+         </article>
+    </section>
 
 ## Example 6
     .button--styled--disabled{
