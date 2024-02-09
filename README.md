@@ -122,6 +122,11 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
       ...
     </article>
 
+#### Solution to example 7:
+    <article class="card card__cat--article">
+      ...
+    </article>
+
 ## Example 8
     <article class="card card--dog card--dog--type1">
       ...
