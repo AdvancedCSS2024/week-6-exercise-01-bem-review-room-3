@@ -68,6 +68,16 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
       max-width: 260px;
       padding: 10px;
       }
+      
+#### Solution to example 3:
+    .card--new{
+        border: solid 1px rgb(255, 242, 0);
+      border-width: 2rem;
+      max-width: 260px;
+      padding: 10px;
+      }
+> [!NOTE]
+> much easier to see that the the card is new when the new is at the end of the class/id 
 
 ## Example 4
     <p class="card__description__text">
@@ -90,6 +100,17 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
              </aside>
          </article>
     </section>
+ 
+#### Solution to example 5:
+    <section class="card">
+        <article class="card__dog--article">
+            <aside class="card__dog--aside">
+                <figure class="card__dog--figure">
+                    <img src="..." alt="Dummy Image" class="" />
+                </figure>
+             </aside>
+         </article>
+    </section>
 
 ## Example 6
     .button--styled--disabled{
@@ -98,6 +119,11 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 
 ## Example 7
     <article class="card cat--card">
+      ...
+    </article>
+
+#### Solution to example 7:
+    <article class="card card__cat--article">
       ...
     </article>
 
@@ -121,6 +147,18 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         align-items: center;
         justify-content: center;
     }
+#### Solution to example 9:
+    .card {
+        border: solid 1px #000;
+        max-width: 360px;
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 15px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
 
 ## Example 10
     .card--dog--type1 header{
@@ -142,6 +180,13 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 > [!TIP]
 > Why is it not a good idea to specify type of flex applied to element in the name of class?
 
+#### Solution to example 11:
+    <main class="main__flex">
+        ...
+    </main>
+> [!TIP]
+> Naming the class with the specified type of flex limits the flexibility and reusability of the class, also worse readability
+
     
 ## Example 12
     <section class="dog--flex">
@@ -151,6 +196,13 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
 ## Example 13
     <footer class="card__options">
       <div class="card__options-buttons">
+       ...
+      </div>
+    </footer>
+
+#### Solution to example 13:
+    <footer class="card__footer">
+      <div class="card__footer--buttons">
        ...
       </div>
     </footer>
@@ -167,6 +219,12 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         <h3 class="card__subtitle">Cat poster - 50nok</h3>
     </header>
 
+#### Solution to example 15:
+    <header class="card card__header">
+        <h2 class="card card__title--cat--new">NEW! Cat Poster</h2>
+        <h3 class="card card__price">Cat poster - 50nok</h3>
+    </header>
+
 ## Example 16
     <section class="catbox">
         ...
@@ -176,6 +234,11 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
     <button class="card_basked_button styled disabled">
         <span class="card_basket_button_icon">&#128722;</span>
         <span class="card_basket_button_text">Basket</span>
+    </button>
+#### Solution to example 17:
+    <button class="card button__basket--disabled">
+        <span class="card button__basket--icon">&#128722;</span>
+        <span class="card button__basket--text">Basket</span>
     </button>
 
 ## Example 18
