@@ -156,6 +156,18 @@ In addition to the above BEM exercise, in your group, practice Git collaboration
         align-items: center;
         justify-content: center;
     }
+#### Solution to example 9:
+    .card {
+        border: solid 1px #000;
+        max-width: 360px;
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 15px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
 
 ## Example 10
     .card--dog--type1 header{
